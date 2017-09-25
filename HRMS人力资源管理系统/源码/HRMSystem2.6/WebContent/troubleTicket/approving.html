@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script language="javascript" src="../script/jquery.js"></script>
+    <script language="javascript" src="../script/pageCommon.js" charset="utf-8"></script>
+    <script language="javascript" src="../script/PageUtils.js" charset="utf-8"></script>
+    <script language="javascript" src="../script/DemoData.js" charset="utf-8"></script>
+    <script language="javascript" src="../script/DataShowManager.js" charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" href="../style/blue/pageCommon.css" />
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<div id="Title_bar">
+    <div id="Title_bar_Head">
+        <div id="Title_Head"></div>
+        <div id="Title"><!--页面标题-->
+            <img border="0" width="13 px" height="13 px" src="../style/images/title_arrow.gif"/> 员工档案
+        </div>
+        <div id="Title_End"></div>
+    </div>
+</div>
+
+<div class="search">
+    <form>
+        <label for="searcher">条件筛选：</label>
+        <input type="text" size="20" id="searcher">
+
+        <select class="select" id="select">
+            <optgroup label="">
+               <option>档案ID</option>
+                <option>人员ID</option>
+                <option>档案编号</option>
+            </optgroup>
+        </select>
+
+        <button type="submit">查询</button>
+    </form>
+</div>
+
+
+<div id="MainArea">
+    <table cellspacing="0" cellpadding="0" class="TableStyle">
+
+        <!-- 表头-->
+        <thead>
+        <tr align="CENTER" valign="MIDDLE" id="TableTitle">
+            <td>档案ID</td>
+            <td>人员ID</td>
+            <td>档案编号</td>
+            <td>内容摘要</td>
+            <td>备注</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+
+        <!--显示数据列表-->
+        <!--<tbody id="TableData" class="dataContainer" datakey="roleList">-->
+        <!--<tr class="TableDetail1 template">-->
+            <!--<td>${role.name}&nbsp;</td>-->
+            <!--<td>${role.description}&nbsp;</td>-->
+            <!--<td><a onClick="return delConfirm()" href="list.html">删除</a>-->
+                <!--<a href="saveUI.html">修改</a>-->
+                <!--<a href="setPrivilegeUI.html">设置权限</a>-->
+            <!--</td>-->
+        <!--</tr>-->
+        <!--</tbody>-->
+    </table>
+
+    <!-- 其他功能超链接 -->
+    <div id="TableTail">
+        <div id="TableTail_inside">
+            <a href="archives/new.html"><img src="../style/images/createNew.png" /></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

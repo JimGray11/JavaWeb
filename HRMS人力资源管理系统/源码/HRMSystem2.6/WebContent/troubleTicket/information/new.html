@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>新建档案</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="../../style/customize.css">
+    <link rel="stylesheet" href="../../style/fonts/fonts.css">
+    <script language="javascript" src="../../script/jquery.js"></script>
+    <script language="javascript" src="../../script/pageCommon.js" charset="utf-8"></script>
+    <script language="javascript" src="../../script/PageUtils.js" charset="utf-8"></script>
+    <script language="javascript" src="../../script/DemoData.js" charset="utf-8"></script>
+    <script language="javascript" src="../../script/DataShowManager.js" charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" href="../../style/blue/pageCommon.css" />
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+
+<!-- 标题显示 -->
+<div id="Title_bar">
+    <div id="Title_bar_Head">
+        <div id="Title_Head"></div>
+        <div id="Title"><!--页面标题-->
+            <img border="0" width="13 px" height="13 px" src="../../style/images/title_arrow.gif"/> 新建信息
+        </div>
+        <div id="Title_End"></div>
+    </div>
+</div>
+
+<div class="form-container">
+    <form action="" method="post">
+        <fieldset>
+            <legend></legend>
+            <div>
+                <label for="name">姓名：</label>
+                <input type="text" size="20" id="name">
+            </div>
+
+            <div>
+                <label>性别：</label>
+                <input type="radio" name="gender">&nbsp;男
+                <input type="radio" name="gender">&nbsp;女
+            </div>
+
+            <div>
+                <label>学历：</label>
+                <input type="text" size="20">
+            </div>
+
+            <div>
+                <label>学位：</label>
+                <input type="text" size="20">
+            </div>
+
+            <div>
+                <label>部门：</label>
+                <select>
+                    <optgroup label="">
+                        <option>财务部</option>
+                        <option>开发部</option>
+                        <option>测试部</option>
+                        <option>销售部</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <label>职务：</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="">职称：</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="">职称：</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>上传近期照片：</label>
+                <input type="file" accept="image/*">
+            </div>
+
+            <div>
+                <label>人员状态：</label>
+                <input type="radio" name="stu">&nbsp;在职
+                <input type="radio" name="stu">&nbsp;离职
+                <input type="radio" name="stu">&nbsp;兼职
+            </div>
+
+            <div>
+                <button type="submit">提交</button>
+                <button type="reset">重置</button>
+            </div>
+
+
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+}
+.wrapper {
+    width:100%;
+    height: 677px;
+    background: white url("images/welcome-bg.png") no-repeat center ;
+}
+
+.container {
+    padding-top: 220px;
+    padding-left: 190px;
+    width: 520px;
+
+}
+.container h1 {
+    font-family: "楷体","Arial", "Helvetica", "sans-serif";
+    font-size: 2.1em;
+    padding: 15px;
+    color: indianred;
+}
+.container hr {
+    color:#2a8ed1;
+}
+
+
+.container h3 {
+    color: #484848;
+    font-family: "楷体", "Arial", "Helvetica", "sans-serif";
+}
+
+.default-title {
+    color: whitesmoke;
+    font-family: "Simple","Arial", "Helvetica", "sans-serif";
+    padding-left: 15px;
+}
+
+.icon-bar {
+    float: left;
+    display: block;
+    width: 10px;
+    height: 30px;
+    background-color: #ff3366;
+}
+
+.icon-bar-h {
+    width: 100px;
+    height: 8px;
+    background-color: dodgerblue;
+    display: block;
+}
+
+#title {
+
+
+}
+
+.form-container {
+    top: 20px;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+
+.form-container div{
+    margin-left: 360px;
+    margin-top: 25px;
+
+}
+
+.form-container fieldset{
+    border: 2px solid lightblue;
+}
+#introduction {
+    padding-top: 10px;
+    padding-left: 8px;;
+}
+
+.form-container input,
+.form-container select,
+.form-container button{
+    border: 2px solid lightblue;
+    background-color: white;
+
+}
+.form-container > form button:first-child {
+    background-color: dodgerblue;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;;
+    color: white;
+    width: 60px;
+    line-height: 2em;
+}
+
+.form-container button{
+    margin:  18px
+}
+
+.form-container button:hover{
+    cursor: pointer;
+}
+
+.form-container button:active {
+    background-color: gray;
+}
+
+
+.form-container > form button:last-child {
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;;
+    background-color: orangered;
+    color: white;
+    width: 60px;
+    line-height: 2em;
+}
+
+
+#basic-info {
+    width:100%;
+    height: 30px;
+    background-color: steelblue;
+}
